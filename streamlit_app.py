@@ -36,8 +36,6 @@ try:
 except URLError as e:
   streamlit.error()
 
-streamlit.stop()
-
 def get_fruit_load_list():
   my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
   with my_cnx.cursor() as my_cur:
