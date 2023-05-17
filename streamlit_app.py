@@ -1,6 +1,6 @@
 import streamlit
 import pandas
-import request
+import requests
 
 streamlit.title('My parents New Healthy Diner')
 
